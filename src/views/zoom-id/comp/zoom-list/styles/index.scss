@@ -1,0 +1,20 @@
+.zoom-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 550px;
+  min-width: 500px;
+  box-shadow: 0 0 8px 0 rgb(20 20 20 / 8%), 0 2px 4px 0 rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  > header {
+   display: flex;
+    border-bottom: 1px solid #bbc1c7;
+    justify-content: center;
+    margin-bottom: 8px;
+    > span {
+      padding: 16px 0;
+      user-select: none;
+      color: #001424;
+    }
+  }
+}

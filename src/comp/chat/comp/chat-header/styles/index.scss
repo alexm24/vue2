@@ -1,0 +1,22 @@
+.chat-header {
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid #bbc1c7;
+  > button {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+    height: 16px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    > span {
+      color: #001424;
+      user-select: none;
+      font-size: 16px;
+    }
+    > svg {
+      margin-left: 8px;
+    }
+  }
+}

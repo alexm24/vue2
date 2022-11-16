@@ -1,0 +1,31 @@
+.stream-chat-ctrl {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 24px;
+  border: 1px solid #e2e2e2;
+  > nav {
+    > h2 {
+      color: #605f5f;
+    }
+  }
+  > main {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+    height: 40px;
+    > button {
+      border-radius: 4px;
+      border: 2px solid transparent;
+      box-sizing: content-box;
+      padding: 0 16px;
+      font-size: 16px;
+      background-color: #e30611;
+      color: #fff;
+      &:hover {
+        background-color: #c80813;
+        border-color: #c80813;
+        color: #fff;
+      }
+    }
+  }
+}

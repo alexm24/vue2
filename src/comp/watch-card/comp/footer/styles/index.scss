@@ -1,0 +1,43 @@
+.watch-card-footer{
+  display: flex;
+  justify-items: center;
+  margin: 8px 0;
+  padding: 0 24px;
+
+  > span {
+    color: #6e7782;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    font-weight: 500;
+    user-select: none;
+    &:hover {
+      color: #001424;
+    }
+  }
+
+  > ul {
+    display: flex;
+    color: #9198a0;
+    font-size: 14px;
+    line-height: 17px;
+    list-style: none;
+    margin-left: auto;
+    > li {
+      display: flex;
+      > span {
+        margin-left: 4px;
+        user-select: none;
+      }
+      > svg {
+        height: 16px;
+        width: 16px;
+        fill: #9198a0;
+      }
+      &:first-child {
+        margin-right: 12px;
+      }
+    }
+  }
+
+}

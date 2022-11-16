@@ -1,0 +1,26 @@
+.live{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  height: calc(100% - 68px);
+  padding: 10px 0;
+}
+
+.player {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.player video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.player video:focus {
+  outline: none;
+}

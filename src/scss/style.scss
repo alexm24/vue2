@@ -1,0 +1,65 @@
+.copy-block {
+  color: #001424;
+  > section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    > span {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+    }
+    > input  {
+      flex: 1 0 auto;
+      display: flex;
+      box-sizing: border-box;
+      background-color: #fff;
+      border: 2px solid #bbc1c7;
+      border-radius: 4px;
+      height: 40px;
+      font-size: 18px;
+      outline: none;
+      margin: 8px 6px 8px 8px;
+      padding: 8px;
+      &:focus {
+        border-color: #001424 !important;
+      }
+      &:hover {
+        border-color: #9198a0;
+      }
+      &::selection {
+        background-color: rgba(52, 58, 64, 0.16);
+      }
+    }
+    > button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 4px;
+      box-sizing: content-box;
+      font-size: 16px;
+      background-color: #fff;
+      border: 2px solid #bbc1c7;
+      margin: 0 2px;
+      > svg {
+        fill: #001424;
+      }
+      &:hover{
+        background-color: #c80813;
+        border-color: #c80813;
+        color: #fff;
+        > svg {
+          fill: currentColor;
+        }
+      }
+      &:focus {
+        background-color: #e30611;
+        border-color: #e30611;
+        box-shadow: 0 0 0 4px rgb(227 6 17 / 24%);
+        color: #fff;
+      }
+    }
+  }
+}

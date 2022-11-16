@@ -1,0 +1,41 @@
+.stream-name {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e2e2e2;
+  padding: 20px 24px;
+  > nav {
+    > h2 {
+      color: #605f5f;
+    }
+  }
+  > main {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #001424;
+    padding: 4px 0;
+  }
+  > footer {
+    color: #001424;
+    > input {
+      width: 100%;
+      box-sizing: border-box;
+      background-color: #fff;
+      border: 2px solid #bbc1c7;
+      border-radius: 4px;
+      height: 40px;
+      font-size: 18px;
+      outline: none;
+      padding: 8px;
+      &:focus {
+        border-color: #001424 !important;
+      }
+      &:hover {
+        border-color: #9198a0;
+      }
+      &::selection {
+        background-color: rgba(52, 58, 64, 0.16);
+      }
+    }
+  }
+}

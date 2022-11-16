@@ -1,0 +1,61 @@
+.zoom-list-item {
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0 rgb(20 20 20 / 8%), 0 2px 4px 0 rgb(0 0 0 / 10%);
+  margin: 8px 16px;
+  cursor: pointer;
+  padding: 8px;
+  box-sizing: border-box;
+  &:hover {
+    background-color: #F2F3F7;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 8%), 0 6px 12px 0 rgb(0 0 0 / 8%);
+  }
+}
+
+.zoom-list-item--active {
+  background-color: #F2F3F7;
+}
+
+.zoom-item-type {
+  margin-right: 4px;
+  > svg {
+    height: 45px;
+    width: 45px;
+  }
+}
+
+.zoom-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  span {
+    user-select: none;
+    font-size: 14px;
+    color: #001424;
+  }
+}
+
+.zoom-item-ctrl {
+  display: flex;
+  margin-left: auto;
+  padding-right: 8px;
+  > button {
+    outline: none;
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    > svg {
+      fill: #9198a0;
+      height: 36px;
+      width: 36px;
+    }
+    &:hover {
+      > svg {
+        fill: #001424;
+      }
+    }
+  }
+}

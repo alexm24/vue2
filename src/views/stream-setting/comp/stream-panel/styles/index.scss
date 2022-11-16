@@ -1,0 +1,11 @@
+.stream-panel {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #e2e2e2;
+  padding: 20px 24px;
+  > h3 {
+    color: #605f5f;
+  }
+}

@@ -1,0 +1,38 @@
+.mts-app__content{
+  display: flex;
+}
+
+.player, .player-empty {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+}
+
+wasd-player{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.player-empty {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 500;
+  border-bottom: #ededed solid 1px;
+}
+
+.player video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.player video:focus {
+  outline: none;
+}

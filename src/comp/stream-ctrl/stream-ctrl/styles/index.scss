@@ -1,0 +1,11 @@
+@import "../../../../scss/modal";
+.stream-ctrl {
+  > header {
+    > h4 {
+      > span {
+        color: #0000007a;
+      }
+    }
+  }
+  @include modal(700px, 90%);
+}

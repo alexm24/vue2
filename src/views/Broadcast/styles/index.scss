@@ -1,0 +1,48 @@
+.broadcast-edit {
+  max-width: 720px;
+  margin: 24px auto 16px;
+  padding-bottom: 16px;
+  > main {
+    flex-flow: row-reverse wrap;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #e2e2e2;
+    padding: 20px 24px;
+  }
+}
+
+.broadcast-start {
+  display: flex;
+  width: 100%;
+}
+.attach-file{
+  display: flex;
+  flex-direction: column;
+  > span {
+    padding: 0;
+    margin: 0 0 4px;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #6e7782;
+  }
+  > label {
+    cursor: pointer;
+    font-weight: 400;
+    padding: 10px 10px;
+    outline: none;
+    text-overflow: ellipsis;
+    background-color: #fff;
+    border: 2px solid #bbc1c7;
+    border-radius: 4px;
+    transition: all .2s ease-in;
+    > span {
+      color: #0077DB;
+      font-size: 14px;
+    }
+  }
+}
+
+

@@ -1,0 +1,67 @@
+.panel-file {
+  display: flex;
+  flex-direction: column;
+}
+
+.file {
+  display: flex;
+  cursor: pointer;
+  border-radius: 4px;
+  &:hover {
+    background-color: #F2F3F7;
+  }
+  > button {
+    outline: none;
+    border: none;
+    background: transparent;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+    cursor: pointer;
+    > svg {
+      fill: #9198a0;
+    }
+    &:hover {
+      > svg {
+        fill: #001424;
+      }
+    }
+  }
+}
+
+.file-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  > span {
+    user-select: none;
+    font-size: 12px;
+    color: #9198A0;
+  }
+}
+
+.svg-upload-file{
+  display: flex;
+  padding: 4px 8px;
+  > svg {
+    height: 32px;
+    width: 32px;
+    fill: #9198A0;
+  }
+}
+
+.file-info-name {
+  display: flex;
+  > span {
+    user-select: none;
+    font-size: 14px;
+    color: #001424;
+    &:first-child {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

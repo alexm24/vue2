@@ -1,0 +1,9 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  // width: 528px;
+  max-width: 528px;
+  min-width: 500px;
+  box-shadow: 0 0 8px 0 rgb(20 20 20 / 8%), 0 2px 4px 0 rgb(0 0 0 / 10%);
+}

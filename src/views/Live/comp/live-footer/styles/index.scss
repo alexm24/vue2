@@ -1,0 +1,22 @@
+.live-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 36px;
+  min-height: 136px;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  > span {
+    font-weight: 400;
+    &:first-child {
+      color: #9198a0;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    &:last-child {
+      color: #001424;
+      font-size: 24px;
+      line-height: 29px;
+      letter-spacing: -.5px;
+    }
+  }
+}

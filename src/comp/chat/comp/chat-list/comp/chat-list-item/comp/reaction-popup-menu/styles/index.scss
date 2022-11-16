@@ -1,0 +1,16 @@
+.reaction-popup-menu {
+  display: none;
+  border-radius: 15px;
+  padding: 4px 6px;
+  align-items: center;
+  position: absolute;
+  box-shadow: 0 0 8px 0 rgb(20 20 20 / 8%), 0 2px 4px 0 rgb(0 0 0 / 10%);
+  bottom: -5px;
+  right: 20px;
+  background-color: white;
+  > button {
+    &:first-child{
+      margin-bottom: 4px;
+    }
+  }
+}

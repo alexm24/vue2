@@ -1,0 +1,44 @@
+@import './scrollbar';
+
+@mixin table() {
+  > table {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 164px);
+    box-sizing: border-box;
+    border-collapse: collapse;
+    background-color: #fff;
+    > thead {
+      padding-bottom: 5px;
+      border-bottom: 1px solid #9198a0;
+      > tr {
+        line-height: 24px;
+      }
+    }
+    > tbody {
+      margin: 8px 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+      @include scrollbar();
+      > tr {
+        border-bottom: 1px solid #e2e5eb;
+        line-height: 32px;
+      }
+    }
+    tr {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    th {
+      font-size: 14px;
+      font-weight: 500;
+      color: #001424;
+    }
+
+    tr > th, tr > td {
+      display: flex;
+    }
+
+  }
+}

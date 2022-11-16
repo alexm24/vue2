@@ -1,0 +1,31 @@
+.report-header {
+  display: flex;
+  margin: 16px 0;
+  border-bottom: 1px solid #e2e5eb;
+  > li {
+    cursor: pointer;
+    padding-bottom: 8px;
+    border-bottom: 4px solid transparent;
+    > span {
+      font-size: 16px;
+      font-weight: 500;
+      color: #6e7782;
+    }
+
+    &:first-child {
+      margin-right: 24px;
+    }
+    &:hover {
+      > span {
+        color: #001424;
+      }
+    }
+  }
+}
+
+.report-header-select {
+  border-bottom-color: #e30611 !important;
+  > span {
+    color: #001424 !important;
+  }
+}

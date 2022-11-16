@@ -1,0 +1,32 @@
+.reaction-btn {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0 4px;
+  background: #e8e8e8;
+  border-radius: 10px;
+  padding: 0 4px;
+
+  > span {
+    color: #0000008f;
+    margin-right: 2px;
+    max-height: 22px;
+    min-height: 22px;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 0 2px;
+  }
+  > button {
+    height: 18px;
+    width: 18px;
+    > svg {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.reaction-btn--active {
+  background: rgba(255, 0, 0, 0.09);
+}

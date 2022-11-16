@@ -1,0 +1,36 @@
+@import '../../../scss/table';
+
+.report{
+  display: flex;
+  height: calc(100% - 68px);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 20px 36px;
+
+  > h2 {
+    color: #605f5f;
+  }
+
+  @include table();
+
+  > footer {
+    display: flex;
+    padding-top: 16px;
+    border-top: 1px solid #e2e5eb;
+    > button {
+      border-radius: 4px;
+      border: 2px solid transparent;
+      box-sizing: content-box;
+      font-size: 16px;
+      background-color: #e30611;
+      color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      > svg {
+        margin-right: 8px;
+        fill: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.watch-card-ctrl {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 16px;
+  background: transparent;
+  box-sizing: border-box;
+  padding: 0 24px;
+  > li {
+    display: flex;
+    > button {
+      display: flex;
+      cursor: pointer;
+      justify-content: center;
+      align-items: center;
+      height: 36px;
+      width: 36px;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 16px;
+      background-color: #fff;
+      border: 2px solid #bbc1c7;
+      margin: 3px;
+      padding: 0;
+
+      &:hover {
+        background-color: #c80813;
+        border-color: #c80813;
+        color: #fff;
+        > svg {
+          fill: #fff
+        }
+      }
+    }
+
+    &:last-child {
+      margin-left: auto;
+    }
+
+  }
+
+}

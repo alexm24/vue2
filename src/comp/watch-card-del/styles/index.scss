@@ -1,0 +1,9 @@
+@import "../../../scss/modal";
+.watch-card-del {
+  @include modal(500px, 90%);
+  > main {
+    > strong {
+      color: red;
+    }
+  }
+}
